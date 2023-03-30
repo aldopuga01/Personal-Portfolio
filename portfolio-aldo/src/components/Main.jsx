@@ -28,15 +28,15 @@ const Main = () => {
                             />
                         </span>
                     </h2>
-                    <div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <a href='https://github.com/aldopuga01' target='_blank' rel='noopener noreferrer'>
-                            <FaGithub className='cursor-pointer' size={25} />
+                            <FaGithub className='cursor-pointer' size={25} style={{ marginRight: '10px' }} />
                         </a>
                         <a href='https://www.linkedin.com/in/aldo-puga-vega-7b4201185/' target='_blank' rel='noopener noreferrer'>
-                            <FaLinkedin className='cursor-pointer' size={25} />
+                            <FaLinkedin className='cursor-pointer' size={25} style={{ marginRight: '10px' }} />
                         </a>
                         <a href='https://www.instagram.com/pugaldo01/' target='_blank' rel='noopener noreferrer'>
-                            <FaInstagram className='cursor-pointer' size={25} />
+                            <FaInstagram className='cursor-pointer' size={25} style={{ marginRight: '10px' }} />
                         </a>
                     </div>
                 </div>
