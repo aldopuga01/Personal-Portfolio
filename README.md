@@ -1,5 +1,5 @@
 ![Mi nombre es Aldo Puga](https://img.shields.io/badge/NOMBRE-Aldo%20Puga-green)
-![Desarrollador Fullstack Jr.](https://img.shields.io/badge/ROL-Desarrollador%20Fullstack%20Jr.-blue)
+![Desarrollador web jr.](https://img.shields.io/badge/ROL-Desarrollador%20web-blue)
 ![React](https://img.shields.io/badge/TECNOLOG%C3%8DA-React-blue)
 ![Vite](https://img.shields.io/badge/TECNOLOG%C3%8DA-Vite-yellow)
 ![Tailwind CSS](https://img.shields.io/badge/TECNOLOG%C3%8DA-Tailwind%20CSS-blueviolet)
@@ -8,7 +8,7 @@
 # Mi Portafolio Personal
 
 ## Acerca de mí
-¡Hola a todos! Soy Aldo Puga, un desarrollador fullstack jr. Actualmente estoy trabajando en mi portafolio personal, el cual está construido con las tecnologías de React y Vite. Aquí podrás encontrar una muestra de mis habilidades como desarrollador, así como algunos de mis proyectos pasados y actuales.
+¡Hola a todos! Soy Aldo Puga, un desarrollador web jr. Actualmente estoy trabajando en mi portafolio personal, el cual está construido con las tecnologías de React y Vite. Aquí podrás encontrar una muestra de mis habilidades como desarrollador, así como algunos de mis proyectos pasados y actuales.
 
 Si quieres saber más sobre mí o mis habilidades, no dudes en echar un vistazo a mi [sitio web](https://www.misitio.com) o a mi [repositorio de GitHub](https://github.com/aldopuga01).
 
