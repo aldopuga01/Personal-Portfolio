@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Experience from './components/Experience'
 import Main from './components/Main'
 import Sidenav from './components/Sidenav'
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Sidenav />
       <Main />
+      < Experience />
     </div>
   )
 }
