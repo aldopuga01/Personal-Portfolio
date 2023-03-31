@@ -15,16 +15,22 @@ const Sidenav = () => {
     const handleNav = () => {
         setNav(!nav);
     };
-
-    return (
-        <div>
-            <AiOutlineMenu onClick={handleNav} className='w-6 h-6 absolute top-4 right-4 z-[99] md:hidden transition-all ease-in-out duration-500' />
-            {
-                nav ? (
-                    <div className='fixed w-full h-screen bg-gradient-to-b flex flex-col justify-center items-center z-20'> 
+    const handleNavClose = () => {
+        setNav(false);
+    };
+    const handleNavLinkClick = () => {
+        setNav(false);
+    };
+        
+        return (
+            <div>
+                <AiOutlineMenu onClick={handleNav} className='w-6 h-6 absolute top-4 right-4 z-[99] md:hidden transition-all ease-in-out duration-500' />
+                {nav ? (
+                    <div className='fixed w-full h-screen bg-gradient-to-b flex flex-col justify-center items-center z-20' onClick={handleNavClose}>
                         <a 
                             href='#main' 
                             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                            onClick={handleNavLinkClick}
                         >
                             <AiOutlineHome size={20} className='text-gray-800'/>
                             <span className='pl-4 text-black'>Home</span>
@@ -32,6 +38,7 @@ const Sidenav = () => {
                         <a 
                             href='#experience' 
                             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                            onClick={handleNavLinkClick}
                         >
                             <AiOutlineHistory size={20} className='text-gray-800'/>
                             <span className='pl-4 text-black'>Experience</span>
@@ -39,6 +46,7 @@ const Sidenav = () => {
                         <a 
                             href='#projects' 
                             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                            onClick={handleNavLinkClick}
                         >
                             <AiOutlineProject size={20} className='text-gray-800'/>
                             <span className='pl-4 text-black'>Projects</span>
@@ -46,6 +54,7 @@ const Sidenav = () => {
                         <a 
                             href='#main' 
                             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                            onClick={handleNavLinkClick}
                         >
                             <BsPerson size={20} className='text-gray-800'/>
                             <span className='pl-4 text-black'>Resume</span>
@@ -53,15 +62,13 @@ const Sidenav = () => {
                         <a 
                             href='#contact' 
                             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+                            onClick={handleNavLinkClick}
                         >
                             <AiOutlineMail size={20} className='text-gray-800'/>
                             <span className='pl-4 text-black'>Contact</span>
                         </a>
                     </div>
-                )
-                : (
-                    ''
-                )}
+                ) : null}
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
                     <a 
