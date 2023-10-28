@@ -13,13 +13,15 @@ const Main = () => {
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-3xl font-semibold text-gray-800 pb-3'>¡Hola! Soy Aldo</h1>
                     <h2>
-                        <span className='sm:text-3xl text-2xl font-semibold text-gray-800 pt-6'>Desarrollador Web Jr. </span>
+                        <span className='sm:text-3xl text-2xl font-semibold text-gray-800 pt-6'>Desarrollador </span>
                         <span className='sm:text-3xl text-2xl font-semibold text-gray-800 pt-6'>
                             <TypeAnimation
                             sequence={[
-                                "FrontEnd", 
+                                "Web Jr. FrontEnd", 
                                 3000, 
-                                "BackEnd",
+                                "Web Jr. BackEnd",
+                                3000,
+                                "Power Platform Jr.",
                                 3000, 
                             ]}
                             wrapper="span"

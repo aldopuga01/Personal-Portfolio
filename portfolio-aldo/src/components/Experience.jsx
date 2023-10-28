@@ -3,10 +3,16 @@ import ExperienceItem from "./ExperienceItem";
 
 const data = [
     {
-        title: "Documentador",
+        title: "Desarrollador Power Platform",
+        company: "Your IT Corp",
+        date: "2023 - Presente",
+        desc: "Desarrolle aplicaciones utilizando la suite de Microsoft Power Platform, las cuales permiten la automatización de procesos de negocio, la creación de aplicaciones de bajo código y la creación de chatbots. Además, he desarrollado aplicaciones web que serán utilizadas para la herramienta de Power Pages, la cual permite la creación de sitios web de forma rápida y sencilla.",
+    },
+    {
+        title: "Maquetador - Desarrollador Web", 
         company: "Universidad Politécnica de Victoria",
         date: "2022",
-        desc: "Durante mi enstancia en la universidad fui parte de la implementación de la solución técnica de un nuevo sistema, creé una documentación completa para el software, que incluyó un manual técnico y otro de usuario para asegurar su uso efectivo.",
+        desc: "Durante mi enstancia en la universidad fui parte de la implementación de la solución técnica de un nuevo sistema, creé una documentación completa para el software, que incluyó un manual técnico y otro de usuario para asegurar su uso efectivo, además de que fui parte del desarrollo de código y correciones necesarias.",
     },
     {
         title: "Frontend Developer",
